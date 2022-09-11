@@ -789,7 +789,7 @@ def get_data_station(request, **kwargs):
     
     data_result["start"] = start_formatted
     data_result["end"] = end_formatted
-    data_result["data"] = station_data
+
 
     
     print("user_param ",station_param)
